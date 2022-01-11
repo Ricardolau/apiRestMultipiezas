@@ -30,7 +30,7 @@ $datos = json_decode($response);
 <p>Precio:<?php echo $datos->pre;?>€</p>
 <p>Stock:<?php echo $datos->sto;?></p>
 
-<button onclic>Volver a enviar otra referencia</button>
+<button onclick="location.href='index.html'">Volver a enviar otra referencia</button>
 
 
 
